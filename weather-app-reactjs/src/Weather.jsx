@@ -69,7 +69,7 @@ const Weather = () => {
                     </center>
                 </div>
             ):(' ')}
-            
+            <center><br /><span>Made with &#129505;&nbsp;&#169; Het Mamtora</span></center>
         </main>
     </div>
   )
