@@ -56,6 +56,7 @@ const Weather = () => {
                             {dateBuilder(new Date())}
                         </div>
                     </div>
+                    <center>
                     <div className='weather-box'>
                         <div className='temp'>
                             {Math.round(weather.main.temp)}°C
@@ -65,6 +66,7 @@ const Weather = () => {
                             {weather.weather[0].main}
                         </div>
                     </div>
+                    </center>
                 </div>
             ):(' ')}
             
