@@ -56,7 +56,7 @@ const Todo = () => {
             editMode ? (
                 <div>
                     <input type='text' value={editValue} onChange={(e)=> setEditValue(e.target.value)} />
-                    <button onClick={updateTodo}>Update</button>
+                    <center><button onClick={updateTodo}>Update</button></center>
                 </div>
             ):(
                 <button onClick={addTodo}>Add</button>
@@ -66,16 +66,16 @@ const Todo = () => {
         <ul>
             {todos.map((todo) => (
                 <li key={todo.id}>
-                    {todo.text}
+                    <p>{todo.text}</p>
                     <div>
-                        <button onClick={() => deleteTodo(todo.id)}>Delete</button>
+                        <button onClick={() => deleteTodo(todo.id)}>Delete</button> <span></span>
                         <button onClick={() => enterEditMode(todo.id, todo.text)}>Edit</button>
                     </div>
                 </li>
             ))}
         </ul>
         
-        <center><span>Made with &#129505;&#169; Het Mamtora</span></center>
+        <center><span>Made with &#129505;&nbsp;&#169; Het Mamtora</span></center>
     </div>
   )
 }
