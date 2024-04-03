@@ -36,7 +36,7 @@ const Weather = () => {
     }
 
   return (
-    <div>
+    <div className={(typeof weather.main != "undefined")? ((weather.main.temp > 16) ? 'app warm': 'app'): 'app'}>
         <main>
             <div className='search-box'>
                 <input type='text' className='search-bar'
@@ -49,7 +49,7 @@ const Weather = () => {
             {(typeof weather.main != "undefined")? (
                 <div>
                     <div className='location-box'>
-                        <div className='loaction'>
+                        <div className='location'>
                             {weather.name},{weather.sys.country}
                         </div>
                         <div className='date'>
