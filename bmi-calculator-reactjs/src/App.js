@@ -26,10 +26,10 @@ const App = () => {
       <div class='categories'>
     <p class='p-categories'>
         <h3>BMI CATEGORIES</h3> <br />
-        <span>Under Weight:</span> &lt; 18.5 <br />
-        <span>Normal Weight:</span> 18.5–24.9<br />
-        <span>Over Weight:</span> 25–29.9<br />
-        <span>Obesity:</span> BMI of 30 or greater <br />
+        <span>Under Weight :</span> &lt; 18.5 <br />
+        <span>Normal Weight :</span> 18.5 – 24.9<br />
+        <span>Over Weight :</span> 25 – 29.9<br />
+        <span>Obesity :</span> BMI of 30 or greater <br />
     </p>
 </div>
         <p className='slider-output'>WEIGHT : <span>{weight}Kg</span></p>
@@ -42,6 +42,8 @@ const App = () => {
       <div className='output-section'>
         <p>Your BMI </p>
         <p className='output'>{output}</p>
+
+        <center><br /><span>Made with &#129505;&nbsp;&#169; Het Mamtora</span></center>
       </div>
     </main>
   )

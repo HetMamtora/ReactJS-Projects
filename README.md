@@ -18,3 +18,6 @@
 
 ![WeatherApp](https://github.com/HetMamtora/ReactJS-Projects/assets/104263376/3f94303b-1a5d-40ca-b053-99a4a6782d5f)
 ![WeatherApp](https://github.com/HetMamtora/ReactJS-Projects/assets/104263376/46b58b0b-8ba1-4a99-8e44-045a38b8f916)
+
+## 4) BMI - Body Mass Index Calculator
+### [LIVE DEPLOYMENT](https://bmi-calculator-hm.netlify.app/)

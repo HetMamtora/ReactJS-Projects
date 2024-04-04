@@ -72,6 +72,11 @@ h1{
   color: #ff9009;
 }
 
+span {
+  color: #9cf04d;
+  font-size: 1rem;
+}
+
 @media screen and (max-width: 1024px) {
   main {
       width: 95%;
@@ -87,5 +92,9 @@ h1{
   h1 {
       font-size: 1.5rem;
       padding: 15px 10px;
+  }
+  .output-section span{
+    color: #9cf04d;
+    font-size: 0.8rem;
   }
 }
