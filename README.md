@@ -4,7 +4,7 @@
 ### [LIVE DEPLOYMENT](https://calculator-hm.netlify.app/)
 
 ![Calculator](https://github.com/HetMamtora/ReactJS-Projects/assets/104263376/18f86b23-3a26-40cc-bd79-56f6ec860e47)
-![calculator](https://github.com/HetMamtora/ReactJS-Projects/assets/104263376/6901ad64-4a7b-41c0-ae95-a15577781a28 = 150x250)
+![calculator](https://github.com/HetMamtora/ReactJS-Projects/assets/104263376/6901ad64-4a7b-41c0-ae95-a15577781a28 | width=100)
 
 ## 2) ToDo List
 ### [LIVE DEPLOYMENT](https://todo-list-hm.netlify.app/)
