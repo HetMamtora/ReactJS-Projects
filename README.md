@@ -21,3 +21,5 @@
 
 ## 4) BMI - Body Mass Index Calculator
 ### [LIVE DEPLOYMENT](https://bmi-calculator-hm.netlify.app/)
+![BMI](https://github.com/HetMamtora/ReactJS-Projects/assets/104263376/076aefc9-a6f4-4db1-8b57-9c58a214de1e)
+![bmiM](https://github.com/HetMamtora/ReactJS-Projects/assets/104263376/45bd115c-6eaa-41d5-99de-7bf55303bdc6)
