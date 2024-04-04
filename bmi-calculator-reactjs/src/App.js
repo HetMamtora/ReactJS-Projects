@@ -3,8 +3,8 @@ import './App.css'
 
 const App = () => {
 
-  const [weight, setWeight] = useState(70);
-  const [height, setHeight] = useState(180);
+  const [weight, setWeight] = useState(60);
+  const [height, setHeight] = useState(140);
 
   function onWeightChange(event){
     setWeight(event.target.value)
@@ -21,13 +21,22 @@ const App = () => {
 
   return (
     <main>
-      <h1>BMI Calculator</h1>
+      <h1>BMI CALCULATOR</h1>
       <div className='input-section'>
-        <p className='slider-output'>Weight: {weight}Kg</p>
-        <input className='input-slider' type='range' step='1' min='40' max='200' onChange={onWeightChange}/>
+      <div class='categories'>
+    <p class='p-categories'>
+        <h3>BMI CATEGORIES</h3> <br />
+        <span>Under Weight:</span> &lt; 18.5 <br />
+        <span>Normal Weight:</span> 18.5–24.9<br />
+        <span>Over Weight:</span> 25–29.9<br />
+        <span>Obesity:</span> BMI of 30 or greater <br />
+    </p>
+</div>
+        <p className='slider-output'>WEIGHT : <span>{weight}Kg</span></p>
+        <input className='input-slider' type='range' step='1' min='30' max='250' onChange={onWeightChange}/>
 
-        <p className='slider-output'>Height: {height}cm</p>
-        <input className='input-slider' type='range' min='100' max='220' onChange={onHeightChange}/>
+        <p className='slider-output'>HEIGHT : <span>{height}cm</span></p>
+        <input className='input-slider' type='range' min='80' max='250' onChange={onHeightChange}/>
       </div>
 
       <div className='output-section'>
